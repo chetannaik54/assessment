@@ -21,23 +21,23 @@ Step 4 : Serve your application using the following command "php -S localhost:80
 Step 5 : Enjoy the weather
 
 ## Available Routes
-<!-- Avaialble cities with us -->
-http://localhost:8000/api/available-cities
+--> Avaialble cities with us
+1) http://localhost:8000/api/available-cities
 
-<!-- Add cities to be forecasted -->
-http://localhost:8000/api/add-cities/?id=1
+--> Add cities to be forecasted
+2) http://localhost:8000/api/add-cities/?id=1
 
-<!-- Delete cities -->
-http://localhost:8000/api/delete-cities?id=2
+--> Delete cities 
+3) http://localhost:8000/api/delete-cities?id=2
 
-<!-- Show all cities weather forecast -->
-http://localhost:8000/api/show-cities
+--> Show all cities weather forecast
+4) http://localhost:8000/api/show-cities
 
-<!-- Show Specific city weather forecast -->
-http://localhost:8000/api/specific-cities
+--> Show Specific city weather forecast
+5) http://localhost:8000/api/specific-cities
 
-<!-- Show all cities weather forecast in human readable -->
-http://localhost:8000/api/show-cities-simple
+--> Show all cities weather forecast in human readable
+6) http://localhost:8000/api/show-cities-simple
 
 ## Jobs/Queue
 A "UpdateForecast" is created to update the weather data on daily basis. you can find the file in App/Jobs/UpdateForecast.php
